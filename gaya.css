@@ -1,0 +1,102 @@
+body{
+    background-image: url("back.jpeg");
+    background-color: #7e1e1e;
+    text-align: center;
+    font-family: Arial;
+}
+
+h1{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+.search{
+    position: relative;
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+}
+
+.search input{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 35px;
+    border-color: aqua;
+}
+
+.search img{
+    width: 20px;
+    position: absolute;
+    right: -30px;
+    top: 10px;
+}
+
+.container{
+    text-align: center;
+    margin-top: 250px;
+}
+
+.mic{
+    width: 18px;
+    position: absolute;
+    right: 40px; 
+    top: 10px;
+}
+
+
+.button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    background: #3386a7;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+header {
+    display: flex;           
+    gap: 20px;        
+    color: rgb(255, 255, 255);      
+    margin-right: 20px;        
+    padding-bottom: 7px;        
+    border-bottom: 3px solid rgb(255, 255, 255); 
+    align-items: center;
+    cursor: pointer;    
+    position: absolute;
+    right: 20px;
+    top: 10px;   
+}
+
+header h1:hover { /* header muncul garis bawah saat disentuh*/
+    border-bottom: 2px solid #ffffff; 
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        flex-direction: row; 
+        gap: 10px;
+        align-items: center;
+    }
+}
+
+.button:hover { /* warna search saat disentuh*/
+    background: #69713c;
+}
+
+header img{  /*logo akun*/
+    width: 20px;
+    padding: 10px;
+    margin-left: auto;
+}
+
+.container img{
+    max-width: 80%;
+    height: auto;
+}
+
